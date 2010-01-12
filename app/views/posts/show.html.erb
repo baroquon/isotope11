@@ -1,0 +1,19 @@
+<br />
+<br />
+
+<div class="single-article">
+  <div class="blog_post">
+    <h2>
+      <%=h @post.title %>
+    </h2>
+
+    <p>
+      <%=h @post.body %>
+    </p>
+  </div>
+  <div class="clear"> </div>
+  <%- if logged_in? %>
+    <%= link_to 'Edit', edit_post_path(@post) %> |
+  <%- end %>
+  <%= link_to 'All Posts', posts_path %>
+</div>
