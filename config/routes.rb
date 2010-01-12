@@ -1,15 +1,9 @@
 ActionController::Routing::Routes.draw do |map|
+  map.new_contact '/contact/new', :controller => 'contact', :action => 'new', :conditions => { :method => :get }
+  map.contact '/contact', :controller => 'contact', :action => 'new', :conditions => { :method => :get }
+  map.contact '/contact', :controller => 'contact', :action => 'create', :conditions => { :method => :post }
   # sets home page
   map.root :controller => 'pages', :action => 'home' 
-  
-  # Pretty routes for pages controller 
-  map.company '/company', :controller => 'pages', :action => 'company' 
-  map.products '/products', :controller => 'pages', :action => 'products' 
-  map.income '/income', :controller => 'pages', :action => 'income' 
-  map.terms '/terms', :controller => 'pages', :action => 'terms' 
-  map.sitemap '/sitemap', :controller => 'pages', :action => 'sitemap' 
-  map.privacy '/privacy', :controller => 'pages', :action => 'privacy' 
-  map.contact '/contact', :controller => 'pages', :action => 'contact' 
   
   # restful auth routes
   map.login '/login', :controller => 'sessions', :action => 'new'

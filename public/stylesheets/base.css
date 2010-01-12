@@ -358,3 +358,14 @@ body .wrapper .footery .footery-container p{
 .ui-tabs .ui-tabs-hide {
   display: none;
 }
+.contact-form{
+  padding: 10px;
+  border: 1px solid #fff;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
+.contact-form textarea{
+  width: 700px;
+  height: 50px;
+}

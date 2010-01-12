@@ -1,0 +1,24 @@
+<%= error_messages_for('contact_handler') %>
+<h2>Contact Us</h2>
+<div class='contact-form'>
+  <% form_for(:contact_handler, :url => contact_url, :html => { :class => 'contact' }) do |f| %>
+    <div>
+      <%= f.label :subject %><br />
+      <%= f.text_field :subject %>
+    </div>
+
+    <div>
+      <%= f.label :body %><br />
+      <%= f.text_area :body %>
+    </div>
+
+    <div>
+      <%= f.label :email %><br />
+      <%= f.text_field :email %>
+    </div>
+
+    <div>
+      <%= f.submit 'send' %>
+    </div>
+  <% end %>
+</div>
