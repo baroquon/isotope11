@@ -41,7 +41,7 @@ production:
   adapter: mysql
   encoding: utf8
   reconnect: false
-  database: isotope11_production
+  database: isotope_eleven_production
   pool: 5
   username: root
   password: 
