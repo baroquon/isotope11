@@ -2730,3 +2730,386 @@ Rendering posts/show
 Rendered shared/_top_nav (0.1ms)
 Rendered shared/_footer (0.1ms)
 Completed in 26ms (View: 14, DB: 4) | 200 OK [http://localhost/posts/1]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-12 17:59:04) [GET]
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendered shared/_top_nav (0.1ms)
+Rendered shared/_footer (0.1ms)
+Completed in 22ms (View: 11, DB: 2) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ContactController#new (for 127.0.0.1 at 2010-01-12 17:59:15) [GET]
+Rendering template within layouts/application
+Rendering contact/new
+Rendered shared/_top_nav (0.1ms)
+Rendered shared/_footer (0.1ms)
+Completed in 101ms (View: 93, DB: 1) | 200 OK [http://localhost/contact]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-12 17:59:20) [GET]
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendered shared/_top_nav (0.1ms)
+Rendered shared/_footer (0.1ms)
+Completed in 22ms (View: 12, DB: 2) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-12 18:04:59) [GET]
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendered shared/_top_nav (0.2ms)
+Rendered shared/_footer (1.3ms)
+Completed in 32ms (View: 21, DB: 2) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-01-12 18:13:53) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Rendered shared/_top_nav (0.1ms)
+Rendered shared/_footer (0.1ms)
+Completed in 18ms (View: 7, DB: 2) | 200 OK [http://localhost/posts/1]
+  [4;35;1mSQL (0.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-12 18:13:56) [GET]
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendered shared/_top_nav (0.1ms)
+Rendered shared/_footer (0.1ms)
+Completed in 20ms (View: 10, DB: 2) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-01-12 18:13:58) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Rendered shared/_top_nav (0.2ms)
+Rendered shared/_footer (0.1ms)
+Completed in 19ms (View: 8, DB: 2) | 200 OK [http://localhost/posts/1]
+  [4;35;1mSQL (0.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-01-12 18:14:23) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.2ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+Rendered shared/_top_nav (0.2ms)
+Rendered shared/_footer (0.1ms)
+Completed in 20ms (View: 8, DB: 2) | 200 OK [http://localhost/posts/1]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-12 18:14:26) [GET]
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendered shared/_top_nav (0.1ms)
+Rendered shared/_footer (0.1ms)
+Completed in 27ms (View: 17, DB: 2) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-01-12 18:15:19) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered shared/_top_nav (0.1ms)
+Rendered shared/_footer (0.1ms)
+Completed in 12ms (View: 9, DB: 1) | 200 OK [http://localhost/login]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-01-12 18:15:27) [POST]
+  Parameters: {"commit"=>"Log in", "authenticity_token"=>"8obVhN9UVx21Ai8/d5AWdvvOl59v+6fP9g8XLRSno0o=", "login"=>"baroquon", "password"=>"Yourmother"}
+  [4;35;1mUser Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`login` = 'baroquon') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/posts/2/edit
+Completed in 52ms (DB: 2) | 302 Found [http://localhost/session]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-01-12 18:15:27) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mUser Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mPost Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.1ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 2) [0m
+Rendering template within layouts/posts
+Rendering posts/edit
+Rendered shared/_top_nav (0.1ms)
+Rendered shared/_footer (0.1ms)
+Completed in 65ms (View: 26, DB: 3) | 200 OK [http://localhost/posts/2/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#2 to ico (for 127.0.0.1 at 2010-01-12 18:15:27) [GET]
+  Parameters: {"id"=>"favicon"}
+  [4;35;1mUser Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+
+ActionController::UnknownAction (No action responded to 2. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#2 to ico (for 127.0.0.1 at 2010-01-12 18:15:30) [GET]
+  Parameters: {"id"=>"favicon"}
+  [4;35;1mUser Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+
+ActionController::UnknownAction (No action responded to 2. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#2 to ico (for 127.0.0.1 at 2010-01-12 18:15:30) [GET]
+  Parameters: {"id"=>"favicon"}
+  [4;35;1mUser Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+
+ActionController::UnknownAction (No action responded to 2. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#update (for 127.0.0.1 at 2010-01-12 18:16:34) [PUT]
+  Parameters: {"commit"=>"Update", "post"=>{"body"=>"There's a good article on \"What Makes a Good Programmer?\"(http://www.techfounder.net/2009/07/22/what-makes-a-good-programmer/) on TechFounder.  In it, it includes Joel Spolsky's criterion for who you want to hire, which is:\r\n\r\n    In principle, it’s simple. You’re looking for people who are\r\n\r\n    1. Smart, and\r\n    2. Get things done.\r\n    Joel Spolsky\r\n\r\nGo read the whole article, it's chock full of nice things for you to consider.\r\n\r\nI was put onto this article via Akita(https://twitter.com/AkitaOnRails/status/2800088333). ", "title"=>"What Makes a Good Programmer?"}, "authenticity_token"=>"8obVhN9UVx21Ai8/d5AWdvvOl59v+6fP9g8XLRSno0o=", "id"=>"2"}
+  [4;35;1mUser Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mPost Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.3ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 2) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPost Update (0.7ms)[0m   [0;1mUPDATE `posts` SET `updated_at` = '2010-01-13 00:16:34', `title` = 'What Makes a Good Programmer?', `body` = 'There\'s a good article on \"What Makes a Good Programmer?\"(http://www.techfounder.net/2009/07/22/what-makes-a-good-programmer/) on TechFounder. In it, it includes Joel Spolsky\'s criterion for who you want to hire, which is:\r\n\r\n In principle, it’s simple. You’re looking for people who are\r\n\r\n 1. Smart, and\r\n 2. Get things done.\r\n Joel Spolsky\r\n\r\nGo read the whole article, it\'s chock full of nice things for you to consider.\r\n\r\nI was put onto this article via Akita(https://twitter.com/AkitaOnRails/status/2800088333). ' WHERE `id` = 2[0m
+  [4;35;1mSQL (50.1ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/posts/2
+Completed in 86ms (DB: 54) | 302 Found [http://localhost/posts/2]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-01-12 18:16:35) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mPost Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.4ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 2) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+  [4;36;1mUser Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered shared/_top_nav (0.1ms)
+Rendered shared/_footer (0.1ms)
+Completed in 33ms (View: 21, DB: 4) | 200 OK [http://localhost/posts/2]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-12 18:16:40) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mUser Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered shared/_top_nav (0.1ms)
+Rendered shared/_footer (0.2ms)
+Completed in 50ms (View: 37, DB: 3) | 200 OK [http://localhost/posts]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#edit (for 127.0.0.1 at 2010-01-12 18:16:49) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mPost Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/edit
+Rendered shared/_top_nav (0.1ms)
+Rendered shared/_footer (0.1ms)
+Completed in 37ms (View: 12, DB: 4) | 200 OK [http://localhost/posts/1/edit]
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#1 to ico (for 127.0.0.1 at 2010-01-12 18:16:49) [GET]
+  Parameters: {"id"=>"favicon"}
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+
+ActionController::UnknownAction (No action responded to 1. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#1 to ico (for 127.0.0.1 at 2010-01-12 18:16:52) [GET]
+  Parameters: {"id"=>"favicon"}
+  [4;36;1mUser Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+
+ActionController::UnknownAction (No action responded to 1. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#1 to ico (for 127.0.0.1 at 2010-01-12 18:16:52) [GET]
+  Parameters: {"id"=>"favicon"}
+  [4;36;1mUser Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+
+ActionController::UnknownAction (No action responded to 1. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#update (for 127.0.0.1 at 2010-01-12 18:17:15) [PUT]
+  Parameters: {"commit"=>"Update", "post"=>{"body"=>"So, we have a new site design here. It is still a bit of a work in progress but the bulk of the actual design should be complete. I hope everyone finds it to be usable and attractive.\r\n-brandon", "title"=>"New Site Design"}, "authenticity_token"=>"8obVhN9UVx21Ai8/d5AWdvvOl59v+6fP9g8XLRSno0o=", "id"=>"1"}
+  [4;36;1mUser Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mPost Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.2ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 1) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPost Update (0.5ms)[0m   [0mUPDATE `posts` SET `updated_at` = '2010-01-13 00:17:15', `title` = 'New Site Design', `body` = 'So, we have a new site design here. It is still a bit of a work in progress but the bulk of the actual design should be complete. I hope everyone finds it to be usable and attractive.\r\n-brandon' WHERE `id` = 1[0m
+  [4;36;1mSQL (53.6ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/posts/1
+Completed in 98ms (DB: 57) | 302 Found [http://localhost/posts/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-01-12 18:17:15) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPost Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 1) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+  [4;35;1mUser Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered shared/_top_nav (0.1ms)
+Rendered shared/_footer (0.1ms)
+Completed in 40ms (View: 27, DB: 3) | 200 OK [http://localhost/posts/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-12 18:17:18) [GET]
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;36;1mPost Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mUser Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered shared/_top_nav (0.1ms)
+Rendered shared/_footer (0.1ms)
+Completed in 56ms (View: 40, DB: 3) | 200 OK [http://localhost/posts]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#new (for 127.0.0.1 at 2010-01-12 18:17:35) [GET]
+  [4;35;1mUser Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mPost Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/posts
+Rendering posts/new
+Rendered shared/_top_nav (0.2ms)
+Rendered shared/_footer (0.1ms)
+Completed in 76ms (View: 24, DB: 3) | 200 OK [http://localhost/posts/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#create (for 127.0.0.1 at 2010-01-12 18:17:46) [POST]
+  Parameters: {"commit"=>"Create", "post"=>{"body"=>"We have 'blog styles in progress' here. I decided to use a couple of css3 properties, namely border-radius and box-shadow. They require you to prepend -moz- and -webkit- to the property to function in the respective browsers and still only firefox renders the styles just right (right as determined by me). Regarding compatibility with other browsers the blog should degrade gracefully but as far as looking the same in all browsers I endorse the view presented here.\r\n\r\n-Brandon", "title"=>"Blog the Styles"}, "authenticity_token"=>"8obVhN9UVx21Ai8/d5AWdvvOl59v+6fP9g8XLRSno0o="}
+  [4;36;1mUser Columns (3.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mPost Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPost Create (0.4ms)[0m   [0;1mINSERT INTO `posts` (`created_at`, `title`, `body`, `updated_at`) VALUES('2010-01-13 00:17:46', 'Blog the Styles', 'We have \'blog styles in progress\' here. I decided to use a couple of css3 properties, namely border-radius and box-shadow. They require you to prepend -moz- and -webkit- to the property to function in the respective browsers and still only firefox renders the styles just right (right as determined by me). Regarding compatibility with other browsers the blog should degrade gracefully but as far as looking the same in all browsers I endorse the view presented here.\r\n\r\n-Brandon', '2010-01-13 00:17:46')[0m
+  [4;35;1mSQL (105.2ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/posts/3
+Completed in 168ms (DB: 111) | 302 Found [http://localhost/posts]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2010-01-12 18:17:46) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mPost Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 3) [0m
+Rendering template within layouts/posts
+Rendering posts/show
+  [4;36;1mUser Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered shared/_top_nav (0.1ms)
+Rendered shared/_footer (0.1ms)
+Completed in 49ms (View: 23, DB: 3) | 200 OK [http://localhost/posts/3]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-01-12 18:17:50) [GET]
+  [4;36;1mPost Load (0.4ms)[0m   [0;1mSELECT * FROM `posts` [0m
+Rendering template within layouts/posts
+Rendering posts/index
+  [4;35;1mPost Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mUser Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendered shared/_top_nav (0.2ms)
+Rendered shared/_footer (0.1ms)
+Completed in 67ms (View: 51, DB: 3) | 200 OK [http://localhost/posts]

@@ -2,21 +2,21 @@
   <h2>Tags</h2>
   <div class="hTagcloud">
     <ul class="popularity">
-      <li><a class="v-popular" href="http://isotope11.com/tags/9">blog</a></li> 
-      <li><a class="vvv-popular" href="http://isotope11.com/tags/11">brandon</a></li> 
-      <li><a class="v-popular" href="http://isotope11.com/tags/7">css3</a></li> 
-      <li><a class="v-popular" href="http://isotope11.com/tags/14">design</a></li> 
-      <li><a class="vv-popular" href="http://isotope11.com/tags/6">eleven</a></li> 
-      <li><a class="v-popular" href="http://isotope11.com/tags/15">graphic</a></li> 
-      <li><a class="v-popular" href="http://isotope11.com/tags/4">greetings</a></li> 
-      <li><a class="v-popular" href="http://isotope11.com/tags/1">hello</a></li> 
-      <li><a class="vv-popular" href="http://isotope11.com/tags/5">isotope</a></li> 
-      <li><a class="v-popular" href="http://isotope11.com/tags/10">isotope11</a></li> 
-      <li><a class="v-popular" href="http://isotope11.com/tags/12">programming</a></li> 
-      <li><a class="v-popular" href="http://isotope11.com/tags/13">site</a></li> 
-      <li><a class="v-popular" href="http://isotope11.com/tags/8">stylesheets</a></li> 
-      <li><a class="vv-popular" href="http://isotope11.com/tags/3">welcome</a></li> 
-      <li><a class="v-popular" href="http://isotope11.com/tags/2">world</a></li> 
+      <li><a class="v-popular" href="#">blog</a></li> 
+      <li><a class="vvv-popular" href="#">brandon</a></li> 
+      <li><a class="v-popular" href="#">css3</a></li> 
+      <li><a class="v-popular" href="#">design</a></li> 
+      <li><a class="vv-popular" href="#">eleven</a></li> 
+      <li><a class="v-popular" href="#">graphic</a></li> 
+      <li><a class="v-popular" href="#">greetings</a></li> 
+      <li><a class="v-popular" href="#">hello</a></li> 
+      <li><a class="vv-popular" href="#">isotope</a></li> 
+      <li><a class="v-popular" href="#">isotope11</a></li> 
+      <li><a class="v-popular" href="#">programming</a></li> 
+      <li><a class="v-popular" href="#">site</a></li> 
+      <li><a class="v-popular" href="#">stylesheets</a></li> 
+      <li><a class="vv-popular" href="#">welcome</a></li> 
+      <li><a class="v-popular" href="#">world</a></li> 
     </ul>
   </div>
 </div>
@@ -29,7 +29,6 @@
       <p>
         <%=h post.body %>
       </p>
-      <p><%= link_to 'Show', post %></p>
       <%- if logged_in? %>
         <td><%= link_to 'Edit', edit_post_path(post) %></td>
         <td><%= link_to 'Destroy', post, :confirm => 'Are you sure?', :method => :delete %></td>
